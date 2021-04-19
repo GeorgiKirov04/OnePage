@@ -253,6 +253,7 @@ button:hover{
     background-size: cover;
     background-position: center;
     margin: auto;
+   
 }
 .Micro{
     width: 100%;
@@ -261,21 +262,24 @@ button:hover{
     transform: translateY(-50%);
     text-align: center;
     color:white;
-    
+   
   
 }
 .Micro h1{
     font-size: 70px;
     margin-top: 80px;
+   
 }
 .Micro p{
     color: white;
     font-size: 20px;
+    
 }
 .bar4{
     position: absolute;
     top: 4440px;
     right: 1250px;
+   
     
  }
  .ww{
@@ -283,6 +287,7 @@ button:hover{
     width: 600px;
     height: 400px;
     top: 0px;
+   
     
  }
 
@@ -315,3 +320,106 @@ button:hover{
     background: #bb0000;
     color: white;
   }
+
+  .cubg{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(107, 93, 93, 0.75), rgba(24, 22, 22, 0.75)), url(cu.jfif) ;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    display: flex;
+}
+  .contact-form{
+    width: 500px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 5150px;
+    left: 1600px;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+  }
+  .contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+  }
+  .txtb{
+    border:1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+  }
+  .txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .txtb input,.txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+  }
+  .btn{
+    display: inline-block;
+    background: #9b59b6;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+  }
+  
+  .aboutme{
+    width: 500px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 5150px;
+    left: 300px;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+  
+     
+  }
+  .aboutme h1{
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  .aboutme p{
+    font-size: 20px;
+    margin-top: 6px;
+  }
+
+  .me{
+
+      position: absolute;
+      left: 750px;
+      margin-top: 150px;   
+    width: 400px;
+    clip-path: circle();
+   
+  }
+  .aboutme h2{
+      position: absolute;
+      bottom: 450px;
+      left: 800px;;
+    font-size: 70px;
+    margin-top: 10px;
+    color: blanchedalmond;
+  }
+
